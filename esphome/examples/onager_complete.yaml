@@ -1,0 +1,55 @@
+esphome:
+  name: onager_complete
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: !secret api_key
+
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+web_server:
+  port: 80
+
+packages:
+  remote_package_shorthand: github://Feudal-Project/Onager/esphome/packages/onager_basics.yaml@main
+  trebuchet_basics: !include 
+    file: trebuchet_basics.yaml
+  trebuchet_module1: !include 
+    file: trebuchet_module.yaml
+    vars:
+      Module_Name: trebuchet_1
+      Module_I2C_Address_input: 0x27
+      Module_I2C_Address_output: 0x26
+      In0_script_singlepress: example_script
+  trebuchet_module2: !include 
+    file: trebuchet_module.yaml
+    vars:
+      Module_Name: trebuchet_2
+      Module_I2C_Address_input: 0x25
+      Module_I2C_Address_output: 0x24
+      In2_script_doublepress: example_script
+  trebuchet_module3: !include 
+    file: trebuchet_module.yaml
+    vars:
+      Module_Name: trebuchet_3
+      Module_I2C_Address_input: 0x23
+      Module_I2C_Address_output: 0x22
+      In6_script_longpress: example_script
+  trebuchet_module4: !include 
+    file: trebuchet_module.yaml
+    vars:
+      Module_Name: trebuchet_4
+      Module_I2C_Address_input: 0x21
+      Module_I2C_Address_output: 0x20
+
+script:
+  - id: example_script
+    then:
+      - switch.turn_on: trebuchet_1_Out0
+      - switch.turn_off: trebuchet_1_Out1
+      - switch.turn_on: trebuchet_3_Out2
