@@ -9,7 +9,7 @@ The Onager is a DIN rail mountable ESP32 based controller module which can be c
 - additional 3.3V and 5V voltage converters
 - 3D printable housing with engraved port descriptions and DIN Rail compatibility with 3D printed locking keys.
 - Highly versatile in its use due to the vast possibilities of ESPHome.
-- 
+
 <p align="center">
   <img src="/images/Onager.jpg" width="50%">
 </p>
