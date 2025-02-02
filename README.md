@@ -35,7 +35,7 @@ It’s for people who:
 - have basic to advanced skills in soldering and have already successfully completed a few ESPHome projects.
 - do have a 3D printer or at least know how to get things printed elsewhere.
 
-Do you recognize yourself above? That’s great! You should be good to go for this project! If not, just tell me about your concerns in the [Q&A discussion section](https://github.com/Feudal-Project/Trebuchet/discussions/categories/q-a), I will try to help you to make the right decision!
+Do you recognize yourself above? That’s great! You should be good to go for this project! If not, just tell me about your concerns in the [Q&A discussion section](https://github.com/Feudal-Project/Onager/discussions/categories/q-a), I will try to help you to make the right decision!
 
 ### What is the idea behind the Onager?
 The main idea is to create an ESP32 based DIN rail mountable controller, which is connected to your Home Assistant locally over ethernet. To control your appliances you need additionals modules, like the [Trebuchet IO module](https://github.com/Feudal-Project/Trebuchet). The Onager itself does not have controllable outputs by itself.
