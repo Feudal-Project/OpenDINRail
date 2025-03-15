@@ -1,0 +1,17 @@
+- timing: 
+    - ON for 50ms to 350ms
+    - OFF for at least 500ms
+  then:
+    - script.execute: ${script_single_press}
+- timing: 
+    - ON for 50ms to 350ms
+    - OFF for 50ms to 350ms
+    - ON for 50ms to 350ms
+    - OFF for at least 500ms
+  then:
+    - script.execute: ${script_double_press}
+- timing: 
+    - ON for at least 400ms
+    - OFF for at least 500ms
+  then:
+    - script.execute: ${script_long_press}

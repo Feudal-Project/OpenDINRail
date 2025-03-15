@@ -1,0 +1,31 @@
+#This file includes the minimal config to use the Trebuchet with the provided Template file.
+
+#copy the following lines below in order to include the copied template files into your ESPHome config.
+#Make sure you select the correct I2C adress. Uncomment the other modules if needed
+packages:
+  trebuchet_basics: !include 
+    file: trebuchet_basics.yaml
+  trebuchet_module1: !include 
+    file: trebuchet_module.yaml
+    vars:
+      Module_Name: trebuchet_1
+      Module_I2C_Address_input: PLEASE_CHANGE_ME
+      Module_I2C_Address_output: PLEASE_CHANGE_ME
+#   trebuchet_module2: !include 
+#     file: trebuchet_module.yaml
+#     vars:
+#       Module_Name: trebuchet_2
+#       Module_I2C_Address_input: PLEASE_CHANGE_ME
+#       Module_I2C_Address_output: PLEASE_CHANGE_ME
+#   trebuchet_module3: !include 
+#     file: trebuchet_module.yaml
+#     vars:
+#       Module_Name: trebuchet_3
+#       Module_I2C_Address_input: PLEASE_CHANGE_ME
+#       Module_I2C_Address_output: PLEASE_CHANGE_ME
+#   trebuchet_module4: !include 
+#     file: trebuchet_module.yaml
+#     vars:
+#       Module_Name: trebuchet_4
+#       Module_I2C_Address_input: PLEASE_CHANGE_ME
+#       Module_I2C_Address_output: PLEASE_CHANGE_ME

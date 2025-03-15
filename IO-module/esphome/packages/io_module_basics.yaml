@@ -1,0 +1,16 @@
+switch:
+  - platform: template
+    name: "Dont use"
+    id: NEVERUSED
+    disabled_by_default: TRUE
+    internal: True
+    lambda: |-
+        return false;
+    turn_on_action:
+      - script.execute: script_none
+    turn_off_action:
+      - script.execute: script_none
+
+script:
+  - id: script_none
+    then: 

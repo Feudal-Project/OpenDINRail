@@ -1,0 +1,755 @@
+substitutions:
+    Module_I2C_Address_input: None
+    Module_I2C_Address_output: None
+
+    Out0: Out0
+    Out1: Out1
+    Out2: Out2
+    Out3: Out3
+    Out4: Out4
+    Out5: Out5
+    Out6: Out6
+    Out7: Out7
+    Out8: Out8
+    Out9: Out9
+    Out10: Out10
+    Out11: Out11
+    Out12: Out12
+    Out13: Out13
+    Out14: Out14
+    Out15: Out15
+
+    Out0_restore_mode: RESTORE_DEFAULT_OFF 
+    Out1_restore_mode: RESTORE_DEFAULT_OFF 
+    Out2_restore_mode: RESTORE_DEFAULT_OFF 
+    Out3_restore_mode: RESTORE_DEFAULT_OFF 
+    Out4_restore_mode: RESTORE_DEFAULT_OFF 
+    Out5_restore_mode: RESTORE_DEFAULT_OFF 
+    Out6_restore_mode: RESTORE_DEFAULT_OFF 
+    Out7_restore_mode: RESTORE_DEFAULT_OFF 
+    Out8_restore_mode: RESTORE_DEFAULT_OFF 
+    Out9_restore_mode: RESTORE_DEFAULT_OFF 
+    Out10_restore_mode: RESTORE_DEFAULT_OFF 
+    Out11_restore_mode: RESTORE_DEFAULT_OFF 
+    Out12_restore_mode: RESTORE_DEFAULT_OFF 
+    Out13_restore_mode: RESTORE_DEFAULT_OFF 
+    Out14_restore_mode: RESTORE_DEFAULT_OFF 
+    Out15_restore_mode: RESTORE_DEFAULT_OFF 
+
+    Out0_interlock: NEVERUSED
+    Out1_interlock: NEVERUSED
+    Out2_interlock: NEVERUSED
+    Out3_interlock: NEVERUSED
+    Out4_interlock: NEVERUSED
+    Out5_interlock: NEVERUSED
+    Out6_interlock: NEVERUSED
+    Out7_interlock: NEVERUSED
+    Out8_interlock: NEVERUSED
+    Out9_interlock: NEVERUSED
+    Out10_interlock: NEVERUSED
+    Out11_interlock: NEVERUSED
+    Out12_interlock: NEVERUSED
+    Out13_interlock: NEVERUSED
+    Out14_interlock: NEVERUSED
+    Out15_interlock: NEVERUSED
+
+    Out0_internal: 'false'
+    Out1_internal: 'false'
+    Out2_internal: 'false'
+    Out3_internal: 'false'
+    Out4_internal: 'false'
+    Out5_internal: 'false'
+    Out6_internal: 'false'
+    Out7_internal: 'false'
+    Out8_internal: 'false'
+    Out9_internal: 'false'
+    Out10_internal: 'false'
+    Out11_internal: 'false'
+    Out12_internal: 'false'
+    Out13_internal: 'false'
+    Out14_internal: 'false'
+    Out15_internal: 'false'
+
+    In0: In0
+    In1: In1
+    In2: In2
+    In3: In3
+    In4: In4
+    In5: In5
+    In6: In6
+    In7: In7
+    In8: In8
+    In9: In9
+    In10: In10
+    In11: In11
+    In12: In12
+    In13: In13
+    In14: In14
+    In15: In15
+
+    In0_internal: 'false'
+    In1_internal: 'false'
+    In2_internal: 'false'
+    In3_internal: 'false'
+    In4_internal: 'false'
+    In5_internal: 'false'
+    In6_internal: 'false'
+    In7_internal: 'false'
+    In8_internal: 'false'
+    In9_internal: 'false'
+    In10_internal: 'false'
+    In11_internal: 'false'
+    In12_internal: 'false'
+    In13_internal: 'false'
+    In14_internal: 'false'
+    In15_internal: 'false'
+
+    In0_script_singlepress: script_none
+    In1_script_singlepress: script_none
+    In2_script_singlepress: script_none
+    In3_script_singlepress: script_none
+    In4_script_singlepress: script_none
+    In5_script_singlepress: script_none
+    In6_script_singlepress: script_none
+    In7_script_singlepress: script_none
+    In8_script_singlepress: script_none
+    In9_script_singlepress: script_none
+    In10_script_singlepress: script_none
+    In11_script_singlepress: script_none
+    In12_script_singlepress: script_none
+    In13_script_singlepress: script_none
+    In14_script_singlepress: script_none
+    In15_script_singlepress: script_none
+
+    In0_script_doublepress: script_none
+    In1_script_doublepress: script_none
+    In2_script_doublepress: script_none
+    In3_script_doublepress: script_none
+    In4_script_doublepress: script_none
+    In5_script_doublepress: script_none
+    In6_script_doublepress: script_none
+    In7_script_doublepress: script_none
+    In8_script_doublepress: script_none
+    In9_script_doublepress: script_none
+    In10_script_doublepress: script_none
+    In11_script_doublepress: script_none
+    In12_script_doublepress: script_none
+    In13_script_doublepress: script_none
+    In14_script_doublepress: script_none
+    In15_script_doublepress: script_none
+
+    In0_script_longpress: script_none
+    In1_script_longpress: script_none
+    In2_script_longpress: script_none
+    In3_script_longpress: script_none
+    In4_script_longpress: script_none
+    In5_script_longpress: script_none
+    In6_script_longpress: script_none
+    In7_script_longpress: script_none
+    In8_script_longpress: script_none
+    In9_script_longpress: script_none
+    In10_script_longpress: script_none
+    In11_script_longpress: script_none
+    In12_script_longpress: script_none
+    In13_script_longpress: script_none
+    In14_script_longpress: script_none
+    In15_script_longpress: script_none
+
+    In0_on_press: script_none
+    In1_on_press: script_none
+    In2_on_press: script_none
+    In3_on_press: script_none
+    In4_on_press: script_none
+    In5_on_press: script_none
+    In6_on_press: script_none
+    In7_on_press: script_none
+    In8_on_press: script_none
+    In9_on_press: script_none
+    In10_on_press: script_none
+    In11_on_press: script_none
+    In12_on_press: script_none
+    In13_on_press: script_none
+    In14_on_press: script_none
+    In15_on_press: script_none
+
+    In0_on_release: script_none
+    In1_on_release: script_none
+    In2_on_release: script_none
+    In3_on_release: script_none
+    In4_on_release: script_none
+    In5_on_release: script_none
+    In6_on_release: script_none
+    In7_on_release: script_none
+    In8_on_release: script_none
+    In9_on_release: script_none
+    In10_on_release: script_none
+    In11_on_release: script_none
+    In12_on_release: script_none
+    In13_on_release: script_none
+    In14_on_release: script_none
+    In15_on_release: script_none
+
+
+      
+
+
+# Example configuration entry
+mcp23017:
+  - id: ${Module_Name}_mcp23017_1
+    address: ${Module_I2C_Address_output}
+  - id: ${Module_Name}_mcp23017_2
+    address: ${Module_I2C_Address_input}
+
+switch:
+#bottom pcb
+  - platform: gpio
+    name: ${Module_Name}_${Out7}
+    id: ${Module_Name}_${Out7}
+    restore_mode: ${Out7_restore_mode}
+    interlock: ${Out7_interlock}
+    internal: ${Out7_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 0
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out6}
+    id: ${Module_Name}_${Out6}
+    restore_mode: ${Out6_restore_mode}
+    interlock: ${Out6_interlock}
+    internal: ${Out6_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 1
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out5}
+    id: ${Module_Name}_${Out5}
+    restore_mode: ${Out5_restore_mode}
+    interlock: ${Out5_interlock}
+    internal: ${Out5_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 2
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out4}
+    id: ${Module_Name}_${Out4}
+    restore_mode: ${Out4_restore_mode}
+    interlock: ${Out4_interlock}
+    internal: ${Out4_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 3
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out3}
+    id: ${Module_Name}_${Out3}
+    restore_mode: ${Out3_restore_mode}
+    interlock: ${Out3_interlock}
+    internal: ${Out3_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 4
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out2}
+    id: ${Module_Name}_${Out2}
+    restore_mode: ${Out2_restore_mode}
+    interlock: ${Out2_interlock}
+    internal: ${Out2_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 5
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out1}
+    id: ${Module_Name}_${Out1}
+    restore_mode: ${Out1_restore_mode}
+    interlock: ${Out1_interlock}
+    internal: ${Out1_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 6
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out0}
+    id: ${Module_Name}_${Out0}
+    restore_mode: ${Out0_restore_mode}
+    interlock: ${Out0_interlock}
+    internal: ${Out0_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 7
+      mode:
+        output: true
+      inverted: false
+#top pcb
+  - platform: gpio
+    name: ${Module_Name}_${Out15}
+    id: ${Module_Name}_${Out15}
+    restore_mode: ${Out15_restore_mode}
+    interlock: ${Out15_interlock}
+    internal: ${Out15_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 12
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out14}
+    id: ${Module_Name}_${Out14}
+    restore_mode: ${Out14_restore_mode}
+    interlock: ${Out14_interlock}
+    internal: ${Out14_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 13
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out13}
+    id: ${Module_Name}_${Out13}
+    restore_mode: ${Out13_restore_mode}
+    interlock: ${Out13_interlock}
+    internal: ${Out13_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 14
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out12}
+    id: ${Module_Name}_${Out12}
+    restore_mode: ${Out12_restore_mode}
+    interlock: ${Out12_interlock}
+    internal: ${Out12_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 15
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out11}
+    id: ${Module_Name}_${Out11}
+    restore_mode: ${Out11_restore_mode}
+    interlock: ${Out11_interlock}
+    internal: ${Out11_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 11
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out10}
+    id: ${Module_Name}_${Out10}
+    restore_mode: ${Out10_restore_mode}
+    interlock: ${Out10_interlock}
+    internal: ${Out10_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 10
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out9}
+    id: ${Module_Name}_${Out9}
+    restore_mode: ${Out9_restore_mode}
+    interlock: ${Out9_interlock}
+    internal: ${Out9_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 7
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: ${Module_Name}_${Out8}
+    id: ${Module_Name}_${Out8}
+    restore_mode: ${Out8_restore_mode}
+    interlock: ${Out8_interlock}
+    internal: ${Out8_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 15
+      mode:
+        output: true
+      inverted: false
+
+
+binary_sensor:
+#bottom pcb
+  - platform: gpio
+    name: ${Module_Name}_${In7}
+    id: ${Module_Name}_${In7}
+    internal: ${In7_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 8
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In7_on_press}
+    on_release:
+      then:
+      - script.execute: ${In7_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In7_script_singlepress}
+            script_double_press: ${In7_script_doublepress}
+            script_long_press: ${In7_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In6}
+    id: ${Module_Name}_${In6}
+    internal: ${In6_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In6_on_press}
+    on_release:
+      then:
+      - script.execute: ${In6_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In6_script_singlepress}
+            script_double_press: ${In6_script_doublepress}
+            script_long_press: ${In6_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In5}
+    id: ${Module_Name}_${In5}
+    internal: ${In5_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In5_on_press}
+    on_release:
+      then:
+      - script.execute: ${In5_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In5_script_singlepress}
+            script_double_press: ${In5_script_doublepress}
+            script_long_press: ${In5_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In4}
+    id: ${Module_Name}_${In4}
+    internal: ${In4_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In4_on_press}
+    on_release:
+      then:
+      - script.execute: ${In4_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In4_script_singlepress}
+            script_double_press: ${In4_script_doublepress}
+            script_long_press: ${In4_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In3}
+    id: ${Module_Name}_${In3}
+    internal: ${In3_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In3_on_press}
+    on_release:
+      then:
+      - script.execute: ${In3_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In3_script_singlepress}
+            script_double_press: ${In3_script_doublepress}
+            script_long_press: ${In3_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In2}
+    id: ${Module_Name}_${In2}
+    internal: ${In2_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In2_on_press}
+    on_release:
+      then:
+      - script.execute: ${In2_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In2_script_singlepress}
+            script_double_press: ${In2_script_doublepress}
+            script_long_press: ${In2_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In1}
+    id: ${Module_Name}_${In1}
+    internal: ${In1_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In1_on_press}
+    on_release:
+      then:
+      - script.execute: ${In1_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In1_script_singlepress}
+            script_double_press: ${In1_script_doublepress}
+            script_long_press: ${In1_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In0}
+    id: ${Module_Name}_${In0}
+    internal: ${In0_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In0_on_press}
+    on_release:
+      then:
+      - script.execute: ${In0_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In0_script_singlepress}
+            script_double_press: ${In0_script_doublepress}
+            script_long_press: ${In10_script_longpress}
+#top pcb
+  - platform: gpio
+    name: ${Module_Name}_${In15}
+    id: ${Module_Name}_${In15}
+    internal: ${In15_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 13
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In15_on_press}
+    on_release:
+      then:
+      - script.execute: ${In15_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In15_script_singlepress}
+            script_double_press: ${In15_script_doublepress}
+            script_long_press: ${In15_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In14}
+    id: ${Module_Name}_${In14}
+    internal: ${In14_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 14
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In14_on_press}
+    on_release:
+      then:
+      - script.execute: ${In14_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In14_script_singlepress}
+            script_double_press: ${In14_script_doublepress}
+            script_long_press: ${In14_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In13}
+    id: ${Module_Name}_${In13}
+    internal: ${In13_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 9
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In13_on_press}
+    on_release:
+      then:
+      - script.execute: ${In13_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In13_script_singlepress}
+            script_double_press: ${In13_script_doublepress}
+            script_long_press: ${In13_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In12}
+    id: ${Module_Name}_${In12}
+    internal: ${In12_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_1
+      number: 8
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In12_on_press}
+    on_release:
+      then:
+      - script.execute: ${In12_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In12_script_singlepress}
+            script_double_press: ${In12_script_doublepress}
+            script_long_press: ${In12_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In11}
+    id: ${Module_Name}_${In11}
+    internal: ${In11_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 11
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In11_on_press}
+    on_release:
+      then:
+      - script.execute: ${In11_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In11_script_singlepress}
+            script_double_press: ${In11_script_doublepress}
+            script_long_press: ${In11_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In10}
+    id: ${Module_Name}_${In10}
+    internal: ${In10_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 12
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In10_on_press}
+    on_release:
+      then:
+      - script.execute: ${In10_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In10_script_singlepress}
+            script_double_press: ${In10_script_doublepress}
+            script_long_press: ${In10_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In9}
+    id: ${Module_Name}_${In9}
+    internal: ${In9_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 9
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In9_on_press}
+    on_release:
+      then:
+      - script.execute: ${In9_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In9_script_singlepress}
+            script_double_press: ${In9_script_doublepress}
+            script_long_press: ${In9_script_longpress}
+  - platform: gpio
+    name: ${Module_Name}_${In8}
+    id: ${Module_Name}_${In8}
+    internal: ${In8_internal}
+    pin:
+      mcp23xxx: ${Module_Name}_mcp23017_2
+      number: 10
+      mode:
+        input: true
+      inverted: true
+    on_press:
+      then:
+      - script.execute: ${In8_on_press}
+    on_release:
+      then:
+      - script.execute: ${In8_on_release}
+    on_multi_click: !include 
+        file: multiclick.yaml 
+        vars: 
+            script_single_press: ${In8_script_singlepress}
+            script_double_press: ${In8_script_doublepress}
+            script_long_press: ${In8_script_longpress}
+    
