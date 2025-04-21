@@ -24,7 +24,7 @@ The following appliances can (usually) be controlled via relays and therefore ge
 - Basic lights.
 - Blinds/covers with separate control wires for up/down (most of them do). If you are unsure, ask a question in the [Q&A discussion section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a), or consult your local electrician.
 - Garage doors which are capable of being wired to a wall switch.
-- Any type of binary valve, like infloor heating valves.
+- Any type of binary valve, like in floor heating valves.
 - Many more ESPHome components which use a binary output at the core.
 
 The following devices can be sensed by the IO module:

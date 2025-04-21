@@ -1,18 +1,18 @@
-Id;Designator;Footprint;Quantity;Designation;Minimal setup quantity;;POE powered quantity
-1;U4;DIP-4_W7.62mm;1;EL817;0;https://www.aliexpress.com/item/1005006239528614.html?spm=a2g0o.productlist.main.11.6c6b2e58n5Aand&algo_pvid=07b3b616-914c-4fe7-9f41-2c0674a7efc9&algo_exp_id=07b3b616-914c-4fe7-9f41-2c0674a7efc9-5&pdp_npi=4%40dis%21EUR%211.25%211.25%21%21%219.31%219.31%21%40210390c917380071632588118e4a95%2112000036423952687%21sea%21DE%214401998626%21X&curPageLogUid=NgatdY9giXYl&utparam-url=scene%3Asearch%7Cquery_from%3A;1
-2;U3;VR10SXXX;1;VR10S05;1;https://www.aliexpress.com/item/1005004587366838.html?spm=a2g0o.cart.0.0.ca8d4ae4zLnaXK&mp=1;1
-3;U2;VR10SXXX;1;VR10S3V3;1;https://www.aliexpress.com/item/1005004587366838.html?spm=a2g0o.cart.0.0.ca8d4ae4zLnaXK&mp=1;1
-4;U1;ESP32-POE_Rev_K;1;ESP32_POE;1;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware;1
-5;SlaveOut1;PinSocket_1x09_P2.54mm_Horizontal;1;Conn_01x09_Socket;1;https://de.aliexpress.com/item/1005001419604352.html?spm=a2g0o.order_list.order_list_main.19.631f5c5fv8tXfS&gatewayAdapt=glo2deu;1
-6;R8,R4,R3;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;3;10k;0;https://de.aliexpress.com/item/32868987725.html?spm=a2g0o.productlist.main.25.48338054E2FrCG&algo_pvid=09d5bc00-dbe5-4108-b93b-af63359f35a8&algo_exp_id=09d5bc00-dbe5-4108-b93b-af63359f35a8-12&pdp_npi=4%40dis%21EUR%211.28%211.09%21%21%219.50%218.09%21%4021038da617380069929581081e6de4%2165467769434%21sea%21DE%214401998626%21X&curPageLogUid=THAaVk3V5JWd&utparam-url=scene%3Asearch%7Cquery_from%3A;2
-7;R7,R6,R5,R1;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;4;4.7k;0;https://de.aliexpress.com/item/32868987725.html?spm=a2g0o.productlist.main.25.48338054E2FrCG&algo_pvid=09d5bc00-dbe5-4108-b93b-af63359f35a8&algo_exp_id=09d5bc00-dbe5-4108-b93b-af63359f35a8-12&pdp_npi=4%40dis%21EUR%211.28%211.09%21%21%219.50%218.09%21%4021038da617380069929581081e6de4%2165467769434%21sea%21DE%214401998626%21X&curPageLogUid=THAaVk3V5JWd&utparam-url=scene%3Asearch%7Cquery_from%3A;2
-8;R2;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;1;2.2k;1;https://de.aliexpress.com/item/32868987725.html?spm=a2g0o.productlist.main.25.48338054E2FrCG&algo_pvid=09d5bc00-dbe5-4108-b93b-af63359f35a8&algo_exp_id=09d5bc00-dbe5-4108-b93b-af63359f35a8-12&pdp_npi=4%40dis%21EUR%211.28%211.09%21%21%219.50%218.09%21%4021038da617380069929581081e6de4%2165467769434%21sea%21DE%214401998626%21X&curPageLogUid=THAaVk3V5JWd&utparam-url=scene%3Asearch%7Cquery_from%3A;1
-9;Q3,Q1;TO-220-3_Vertical;2;IRF9540N;1;https://de.aliexpress.com/item/1005003098463022.html?spm=a2g0o.cart.0.0.ca8d4ae4zLnaXK&mp=1&gatewayAdapt=glo2deu;2
-10;Q2;SOT-23;1;2N7002;0;https://de.aliexpress.com/item/1005008223170009.html?spm=a2g0o.productlist.main.3.6c633121w6rP31&algo_pvid=9977e7ae-3dfb-40bc-8180-b22ee0adc648&algo_exp_id=9977e7ae-3dfb-40bc-8180-b22ee0adc648-1&pdp_npi=4%40dis%21EUR%211.24%211.09%21%21%211.27%211.12%21%402103956a17380072924088865e7789%2112000044285058943%21sea%21DE%214401998626%21X&curPageLogUid=VE1NjuxXl8Rq&utparam-url=scene%3Asearch%7Cquery_from%3A;1
-11;JP4,JP3,JP1;PinHeader_1x02_P2.54mm_Vertical;3;Jumper_2_Open;3;https://de.aliexpress.com/item/4000540718136.html?spm=a2g0o.productlist.main.1.725c15e5B1SCCl&algo_pvid=a79348b0-ea2c-49ac-bead-8eb454b65f96&algo_exp_id=a79348b0-ea2c-49ac-bead-8eb454b65f96-0&pdp_npi=4%40dis%21EUR%211.19%211.19%21%21%211.22%211.22%21%402103867617380071390055643e86b7%2110000002790230890%21sea%21DE%214401998626%21X&curPageLogUid=opxhVU1gLt2r&utparam-url=scene%3Asearch%7Cquery_from%3A;3
-12;J3,J2;PinHeader_1x10_P2.54mm_Vertical;4;Conn_01x10_Pin;4;https://de.aliexpress.com/item/1005007324368709.html?spm=a2g0o.productlist.main.5.1fa71a52Xjc72z&algo_pvid=0b6138b3-c7de-491b-918f-feb3c2cae980&algo_exp_id=0b6138b3-c7de-491b-918f-feb3c2cae980-2&pdp_npi=4%40dis%21EUR%213.63%211.09%21%21%2126.95%218.09%21%40211b613917380070864853934e0f17%2112000040294686476%21sea%21DE%214401998626%21X&curPageLogUid=gngzMMyAhk7E&utparam-url=scene%3Asearch%7Cquery_from%3A;4
-13;J1;TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal;1;Screw_Terminal_01x02;1;https://de.aliexpress.com/item/32892759207.html?spm=a2g0o.order_detail.order_detail_item.3.1d386368byhyJM&gatewayAdapt=glo2deu;1
-14;D1;D_SMF;1;BZT52C15V;1;https://de.aliexpress.com/item/1005005664905177.html?spm=a2g0o.cart.0.0.72224ae45pgYD9&mp=1&gatewayAdapt=glo2deu;1
-15;C4,C2;CP_Elec_6.3x5.4;2;10u;0;https://www.digikey.de/de/products/detail/panasonic-electronic-components/EEH-ZC1J100P/3088071;0
-16;C3,C1;CP_Elec_6.3x5.8;2;22u;0;https://www.digikey.de/de/products/detail/panasonic-electronic-components/EEH-ZC1H220P/3088067;0
-17;U1;xxx;2;female header_01x10;2;https://de.aliexpress.com/item/1005001418544370.html?spm=a2g0o.order_list.order_list_main.20.631f5c5fv8tXfS&gatewayAdapt=glo2deu;2
+Id;Designator;Footprint;Quantity;Designation;Comment;Minimal setup quantity;POE powered quantity;Aliexpress link;Reference link
+1;U4;DIP-4_W7.62mm;1;EL817;;0;1;https://www.aliexpress.com/item/1005006239528614.html;
+2;U3;VR10SXXX;1;VR10S05;make sure to select the correcto voltage;1;1;https://www.aliexpress.com/item/1005004587366838.html;https://www.digikey.de/de/products/detail/xp-power/TR10S05/6707495
+3;U2;VR10SXXX;1;VR10S3V3;make sure to select the correcto voltage;1;1;https://www.aliexpress.com/item/1005004587366838.html;https://www.digikey.de/de/products/detail/xp-power/tr10s3v3/6707494
+4;U1;ESP32-POE_Rev_K;1;ESP32_POE;make sure to buy the 16Mb Variant!;1;1;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware;
+5;SlaveOut1;PinSocket_1x09_P2.54mm_Horizontal;1;Conn_01x09_Socket;make sure, the spacing is 5mm not 5.08mm!;1;1;https://de.aliexpress.com/item/1005001419604352.html;
+6;R8,R4,R3;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;3;10k;;0;2;https://de.aliexpress.com/item/32868987725.html;
+7;R7,R6,R5,R1;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;4;4.7k;;0;2;https://de.aliexpress.com/item/32868987725.html;
+8;R2;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;1;2.2k;;1;1;https://de.aliexpress.com/item/32868987725.html;
+9;Q3,Q1;TO-220-3_Vertical;2;IRF9540N;;1;2;https://de.aliexpress.com/item/1005003098463022.html;
+10;Q2;SOT-23;1;2N7002;;0;1;https://de.aliexpress.com/item/1005008223170009.html;
+11;JP4,JP3,JP1;PinHeader_1x02_P2.54mm_Vertical;3;Jumper_2_Open;;3;3;https://de.aliexpress.com/item/4000540718136.html;
+12;J3,J2;PinHeader_1x10_P2.54mm_Vertical;4;Conn_01x10_Pin;;4;4;https://de.aliexpress.com/item/1005007324368709.html;
+13;J1;TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal;1;Screw_Terminal_01x02;;1;1;https://de.aliexpress.com/item/32892759207.html;
+14;D1;D_SMF;1;BZT52C15V;;1;1;https://de.aliexpress.com/item/1005005664905177.html;
+15;C4,C2;CP_Elec_6.3x5.4;2;22u;only necessary if you buy the reference part;0;0;https://www.digikey.de/de/products/detail/panasonic-electronic-components/EEH-ZC1H220P/3088067;
+16;C3,C1;CP_Elec_6.3x5.8;2;47u;only necessary if you buy the reference part;0;0;https://www.digikey.de/de/products/detail/panasonic-electronic-components/EEH-ZC1V470P/3088062;
+17;U1;Conn_01x09_Socket;2;female header_01x10;;2;2;https://de.aliexpress.com/item/1005001418544370.html;

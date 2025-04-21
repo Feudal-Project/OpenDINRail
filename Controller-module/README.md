@@ -1,11 +1,11 @@
 # Controller module
-The Controller module is a DIN rail mountable ESP32 which can be connected to the [IO module](https://github.com/Feudal-Project/Trebuchet) module. It is intended as a DIY project for anyone who is already familiar with ESPHome and has a basic to advanced level of soldering skills.
+The Controller module is a DIN rail mountable ESP32 which can be connected to the [IO module](https://github.com/Feudal-Project/Trebuchet). It is intended as a DIY project for anyone who is already familiar with ESPHome and has a basic to advanced level of soldering skills.
 
 ## Features
-- Powered by 24V external powersupply
-- connected via ethernet (makes use of the olimex ESP32 POE)
-- Side connector for daisy chaining up to 4 [IO modules](https://github.com/Feudal-Project/Trebuchet).
-- Can be powered by POE to sense external power loss
+- Powered by 24V external powersupply.
+- connected via ethernet (makes use of the Olimex ESP32 POE).
+- Side connector for daisy-chaining up to 4 [IO modules](https://github.com/Feudal-Project/Trebuchet).
+- Can be powered by POE to sense external power loss.
 - additional 3.3V and 5V voltage converters.
 - 3D printable housing with engraved port descriptions and DIN Rail compatibility with 3D printed locking keys.
 - Highly versatile in its use due to the vast possibilities of ESPHome.
@@ -14,9 +14,6 @@ The Controller module is a DIN rail mountable ESP32 which can be connected to t
 <p align="center">
   <img src="/images/Controller-module.jpg" width="50%">
 </p>
-
-## Buying guide for the controller module
-This section will be completed soon! Come back later to see how and where you will be able to get all necessary components for creating your own IO module!
 
 ## FAQs
 ### What is the idea behind the controller module?
