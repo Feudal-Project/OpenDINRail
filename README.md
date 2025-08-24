@@ -16,7 +16,7 @@ OpenDINRail is a DIY open source DIN rail mountable smart home system based on E
 ### Buying the OpenDINRail controller
 In order to create your own OpenDINRail controller, you need to buy a few components as well as the PCB connecting them all together. 
 The PCB can be bought from [PCBWay](https://www.pcbway.com/project/shareproject/OpenDINRail_Controller_Feudal_Technologies_99916049.html). This way you can be sure, the PCB is manufactured by a known supplier, with the settings to your liking!
-To buy all needed components, simply have a look at the excel sheet provided [here](https://github.com/Feudal-Project/OpenDINRail/tree/main/Controller-module/hardware). I provided alternatives for some components. In general, you don't have to buy the components from link provided, they are just for reference and I don't get a commission if you use them. Make sure to read the info in the comment column to be on the safe side, while ordering!
+To buy all needed components, simply have a look at the excel sheet provided [here](https://github.com/Feudal-Project/OpenDINRail/tree/main/Controller-module/hardware). I provided alternatives for some components. In general, you don't have to buy the components from the link provided, they are just for reference and I don't get a commission if you use them. Make sure to read the info in the comment column to be on the safe side while ordering!
 
 ### Buying the OpenDINRail IO module
 The IO module consists of two different PCBs. One smaller [top PCB](https://www.pcbway.com/project/shareproject/OpenDINRail_IO_module_top_PCB_Feudal_Technologies_298a59ed.html) and a bigger [bottom](https://www.pcbway.com/project/shareproject/OpenDINRail_IO_module_bottom_PCB_Feudal_Technologies_14f4fc74.html) one. I highly recommend to buy both, but strictly speaking the top one is not necessary, as it only extends the IOs. If you don't buy the top PCB, 8 inputs and 8 outputs are not available. There are two different paths you can take while ordering your PCBs from PCBWay.
@@ -44,7 +44,7 @@ It’s for people who:
 Do you recognize yourself above? That’s great! You should be good to go for this project! If not, just tell me about your concerns in the [Q&A discussion section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a), I will try to help you to make the right decision!
 
 ### What exactly can be connected to the OpenDINRail system?
-The following appliances can (usually) be controlled via relays and therefore get connected to the IO module (XXX Link):
+The following appliances can (usually) be controlled via relays and therefore get connected to the [IO module](https://github.com/Feudal-Project/OpenDINRail/tree/main/IO-module):
 
 - Basic lights.
 - Blinds/covers with separate control wires for up/down (most of them do). If you are unsure, ask a question in the [Q&A discussion section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a), or consult your local electrician.
@@ -91,7 +91,7 @@ Now that you have chosen to create your own OpenDINRail setup, let me guide you 
 
 **Imagine your setup**
 
-First of all, you have to imagine your system and think of anything that you want to connect to it. This step is crucial for you to be happy with the end result. It doesn't matter if you built an completely new home, or just want to have the worlds smartest shed in the backyard. Imagine every output and input, and list them as detailed as necessary. Take your time to really think about it! This system being hardwired, makes it really hard to add stuff late on.
+First of all, you have to imagine your system and think of anything that you want to connect to it. This step is crucial for you to be happy with the end result. It doesn't matter if you built a completely new home, or just want to have the worlds smartest shed in the backyard. Imagine every output and input, and list them as detailed as necessary. Take your time to really think about it! This system being hardwired, makes it really hard to add stuff late on.
 
 **Divide and conquer**
 
@@ -99,11 +99,11 @@ If you are designing the system for an entire house, it will most likely be nece
 
 **Get to know the cost**
 
-Knowing the cost before going any further will be useful. With the OpenDINRail system being hardwired, wires are most likely the most expensive part of it all. Consult a local electrician for pricing and thing about good places to hide the electric cabinet. Splitting the setup into areas of floors, might save a lot in wiring! For a rough estimation of component cost, look at the [cost section](#cost)
+Knowing the cost before going any further will be useful. With the OpenDINRail system being hardwired, wires are most likely the most expensive part of it all. Consult a local electrician for pricing and think about good places to hide the electric cabinet. Splitting the setup into areas or floors, might save a lot in wiring! For a rough estimation of component cost, look at the [cost section](#cost)
 
 **Test your system in a safe space**
 
-Although the modules are tested and have proven to work for myself, there is no guarantee for them to work in your scenario. Components outside of the modules (like relays, switches, door window contacts, valves, etc.) can simply have a very big impact on the system. So get yourself one or two of every component you plan to connect to the system, as well as at least one controller and IO module and just test it. If you have any questions are unsure about component selection, consult a local electrician or write an entry into the [Q&A section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a)
+Although the modules are tested and have proven to work for myself, there is no guarantee for them to work in your scenario. Components outside of the modules (like relays, switches, door window contacts, valves, etc.) can simply have a very big impact on the system. So get yourself one or two of every component you plan to connect to the system, as well as at least one controller and IO module and just test it. If you have any questions or you're unsure about component selection, consult a local electrician or write an entry into the [Q&A section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a)
 
 **Wire everything up**
 
