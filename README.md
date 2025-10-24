@@ -50,7 +50,7 @@ The following appliances can (usually) be controlled via relays and therefore ge
 - Blinds/covers with separate control wires for up/down (most of them do). If you are unsure, ask a question in the [Q&A discussion section](https://github.com/Feudal-Project/OpenDINRail/discussions/categories/q-a), or consult your local electrician.
 - Garage doors which are capable of being wired to a wall switch.
 - Any type of binary valve, like infloor heating valves.
--  Many more ESPHome components which use a binary output at the core.
+- Many more ESPHome components which use a binary output at the core.
 
 The following devices can be sensed by the IO module:
 - Static and momentary wall switches.
@@ -91,7 +91,7 @@ Now that you have chosen to create your own OpenDINRail setup, let me guide you 
 
 **Imagine your setup**
 
-First of all, you have to imagine your system and think of anything that you want to connect to it. This step is crucial for you to be happy with the end result. It doesn't matter if you built a completely new home, or just want to have the worlds smartest shed in the backyard. Imagine every output and input, and list them as detailed as necessary. Take your time to really think about it! This system being hardwired, makes it really hard to add stuff late on.
+First of all, you have to imagine your system and think of anything that you want to connect to it. This step is crucial for you to be happy with the end result. It doesn't matter if you built a completely new home, or just want to have the worlds smartest shed in the backyard. Imagine every output and input, and list them as detailed as necessary. Take your time to really think about it! This system being hardwired, makes it really hard to add stuff later on.
 
 **Divide and conquer**
 
